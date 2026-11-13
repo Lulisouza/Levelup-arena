@@ -1,0 +1,46 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=IBM+Plex+Sans:wght@400;600&display=swap");
+
+
+:root {
+  --preto:   #000000; 
+  --laranja: #ff6a00;   
+  --branco:  #ffffff;   
+
+  --fonte-titulo: "Bricolage Grotesque", Arial, sans-serif;
+  --fonte-texto:  "IBM Plex Sans", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; }
+
+body {
+  background: var(--preto);
+  color: var(--branco);
+  font-family: var(--fonte-texto);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--fonte-titulo);
+  line-height: 1.1;
+}
+
+a { color: var(--laranja); }
+
+img { max-width: 100%; display: block; }
+
+.container {
+  width: min(100% - 2rem, 1100px);
+  margin-inline: auto;
+}
+
+.botao {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--laranja);
+  color: var(--preto);   
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.botao:hover { opacity: 0.85; }
