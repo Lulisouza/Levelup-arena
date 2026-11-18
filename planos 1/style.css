@@ -18,6 +18,7 @@ body {
   color: var(--branco);
   font-family: var(--fonte-texto);
   line-height: 1.6;
+
 }
 
 h1, h2, h3, h4 {
